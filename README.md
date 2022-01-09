@@ -1,10 +1,10 @@
-# SLR Parser [![codecov](https://codecov.io/gh/Vipul97/slr-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/Vipul97/slr-parser) [![Build Status](https://travis-ci.com/Vipul97/slr-parser.svg?branch=master)](https://travis-ci.com/Vipul97/slr-parser) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-Implementation of Simple LR (SLR) Parser for educational purposes.
+# SLR Parser
+Курс: Теория языков программирования и методы трансляции
+Реализация парсера методом восходящего разбора с использованием простого предшествования
 
 ```
 $ slr -g grammar.txt "id + id * id"
-AUGMENTED GRAMMAR:
+ДОПОЛНЕННАЯ ГРАММАТИКА:
 0: E' -> E
 1:  E -> E + T
 2:  E -> T
